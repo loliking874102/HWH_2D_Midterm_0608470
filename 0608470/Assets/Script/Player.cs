@@ -16,10 +16,6 @@ public class Player : MonoBehaviour
     public Animator ani;
     [Header("偵測範圍")]
     public float rangeAttack = 2.5f;
-    [Header("音效來源")]
-    public AudioSource aud;
-    [Header("攻擊音效")]
-    public AudioClip soundAttack;
 
     private void OnDrawGizmos()
     {
@@ -42,7 +38,6 @@ public class Player : MonoBehaviour
     }
     public void Att()
     {
-        aud.PlayOneShot(soundAttack, 0.5f);
         RaycastHit2D hit = Physics2D.CircleCast(transform.position, rangeAttack, -transform.up,  0,1 << 8);
         
         if (hit && hit.collider.tag == "道具") hit.collider.GetComponent<Item>().Dropprop();
@@ -64,8 +59,6 @@ public class Player : MonoBehaviour
         
         Move();
     }
-    [Header("吃金幣音效")]
-    public AudioClip eatsound;
     [Header("金幣數量")]
     public Text GetCoin ;
     private int Coin;
@@ -73,7 +66,6 @@ public class Player : MonoBehaviour
     {
         Coin++;
         print(collision.gameObject);
-        aud.PlayOneShot(eatsound);
         Destroy(collision.gameObject);
         GetCoin.text = "金幣:" + Coin;
     }

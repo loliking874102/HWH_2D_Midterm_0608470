@@ -66,10 +66,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -81,21 +77,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11232}
     - Class: 114
-      Script: {instanceID: 11256}
+      Script: {instanceID: 11258}
     - Class: 114
-      Script: {instanceID: 11366}
+      Script: {instanceID: 11368}
     - Class: 114
-      Script: {instanceID: 11548}
+      Script: {instanceID: 11550}
     - Class: 114
-      Script: {instanceID: 11732}
+      Script: {instanceID: 11734}
     - Class: 114
-      Script: {instanceID: 12268}
+      Script: {instanceID: 12270}
     - Class: 114
-      Script: {instanceID: 12314}
+      Script: {instanceID: 12316}
     - Class: 114
-      Script: {instanceID: 12976}
+      Script: {instanceID: 12978}
     - Class: 114
-      Script: {instanceID: 13416}
+      Script: {instanceID: 13418}
     - Class: 114
       Script: {instanceID: 13744}
     - Class: 114
@@ -583,7 +579,7 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
-      Hash: 8b56af61dd43d90a2d91dca43a99a3da
+      Hash: aefe04d0606044c27acbde1b4b3f250d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player
@@ -680,4 +676,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/2Dapp.unity
-  playerPath: D:/user/Desktop/HWH_2D_Midterm_0608470/web
+  playerPath: C:/Users/User/Desktop/HWH_2D_Midterm_0608470/web
