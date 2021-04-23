@@ -77,21 +77,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11232}
     - Class: 114
-      Script: {instanceID: 11258}
+      Script: {instanceID: 11256}
     - Class: 114
-      Script: {instanceID: 11368}
+      Script: {instanceID: 11366}
     - Class: 114
-      Script: {instanceID: 11550}
+      Script: {instanceID: 11548}
     - Class: 114
-      Script: {instanceID: 11734}
+      Script: {instanceID: 11732}
     - Class: 114
-      Script: {instanceID: 12270}
+      Script: {instanceID: 12268}
     - Class: 114
-      Script: {instanceID: 12316}
+      Script: {instanceID: 12314}
     - Class: 114
-      Script: {instanceID: 12978}
+      Script: {instanceID: 12976}
     - Class: 114
-      Script: {instanceID: 13418}
+      Script: {instanceID: 13416}
     - Class: 114
       Script: {instanceID: 13744}
     - Class: 114
@@ -676,4 +676,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/2Dapp.unity
-  playerPath: C:/Users/User/Desktop/HWH_2D_Midterm_0608470/web
+  playerPath: C:/Users/User/Desktop/HWH_2D_Midterm_0608470/web2
